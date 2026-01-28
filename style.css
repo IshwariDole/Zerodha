@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Arial;
+  line-height: 1.6;
 }
 
 .header {
@@ -24,7 +25,7 @@
   text-decoration: none;
   color: #666;
 }
-.hero-section {
+.hero-section, .left-section {
   text-align: center;
   margin-bottom: 40px;
 }
@@ -33,15 +34,15 @@
   margin: 120px 0;
   margin-bottom: 20px;
 }
-.hero-section h1 {
+.hero-section h1, .left-section h1 {
   color: #424242;
   margin-bottom: 20px;
 }
-.hero-section p {
+.hero-section p, .left-section p {
   margin-bottom: 30px;
   color: #424242;
 }
-.hero-section a {
+.hero-section a, .left-section a {
   text-decoration: none;
   background-color: #387ed1;
   color: white;
@@ -55,6 +56,8 @@
 }
 .container .left-section {
   text-align: left;
+  width: 50%;
+  padding: 60px 0;
 }
 .container .left-section h2 {
   margin-bottom: 45px;
@@ -84,22 +87,89 @@
 .press img {
   padding: 20px 400px;
   align-items: center;
+  margin-bottom: 60px;
 }
 
 .container-2 {
   display: flex;
+ justify-content: space-between;
   padding: 0 140px;
-  margin-top: 80px;
+  
 }
-.container-2 .left {
-  padding-top: 20px;
+.left {
+  width: 40%;
 }
 .container-2 .left h2 {
   margin-bottom: 30px;
   color: #424242;
 }
 .container-2 .left p {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #666666;
-  margin-right: 80px;
+}
+.left a{
+  text-decoration: none;
+  color: #387ed1;
+}
+.right{
+  width: 55%;
+   display: flex;
+  justify-content: space-between;
+}
+.right .price-box{
+display: flex;
+align-items: flex-end;
+width: 20%;
+}
+.right .price-box p{
+  color: #666666;
+  font-size: 10px;
+  margin: 30px 10px;
+  left: -15px;
+  top: 5px;
+ 
+}
+
+
+
+.education {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 140px;
+}
+.edu-left {
+  width: 45%;
+}
+
+.edu-left img {
+  width: 100%;
+}
+.edu-right {
+  width: 45%;
+}
+
+.edu-right h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #424242;
+  margin-bottom: 25px;
+}
+
+.edu-right p {
+  font-size: 18px;
+  color: #666666;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.edu-right .second-para {
+  margin-top: 30px;
+}
+
+.edu-right a {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #387ed1;
+  text-decoration: none;
 }
