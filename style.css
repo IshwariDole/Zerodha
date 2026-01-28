@@ -11,7 +11,6 @@
   padding: 0 140px;
   height: 70px;
   align-items: center;
-
   border-bottom: 1px solid #ddd;
 }
 .header img {
@@ -27,6 +26,7 @@
 }
 .hero-section {
   text-align: center;
+  margin-bottom: 40px;
 }
 .hero-section img {
   width: 750px;
@@ -34,17 +34,72 @@
   margin-bottom: 20px;
 }
 .hero-section h1 {
- color: #424242;
+  color: #424242;
   margin-bottom: 20px;
 }
 .hero-section p {
   margin-bottom: 30px;
-     color: #424242;
+  color: #424242;
 }
-.hero-section a{
-    text-decoration: none;
-    background-color: #0084ff;
-    color: white;
-    padding: 8px 15px;
-    border-radius: 4px;
+.hero-section a {
+  text-decoration: none;
+  background-color: #387ed1;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+.container {
+  display: flex;
+  padding: 0 140px;
+}
+.container .left-section {
+  text-align: left;
+}
+.container .left-section h2 {
+  margin-bottom: 45px;
+  color: #424242;
+}
+.container .left-section h3 {
+  margin-bottom: 20px;
+  color: #424242;
+}
+.container .left-section p {
+  margin-bottom: 30px;
+  color: #666666;
+}
+.container .right-section a {
+  text-decoration: none;
+}
+.container .right-section a img {
+  width: 600px;
+}
+.container .right-section a p {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  margin-top: 20px;
+}
+
+.press img {
+  padding: 20px 400px;
+  align-items: center;
+}
+
+.container-2 {
+  display: flex;
+  padding: 0 140px;
+  margin-top: 80px;
+}
+.container-2 .left {
+  padding-top: 20px;
+}
+.container-2 .left h2 {
+  margin-bottom: 30px;
+  color: #424242;
+}
+.container-2 .left p {
+  margin-bottom: 30px;
+  color: #666666;
+  margin-right: 80px;
 }
